@@ -1,0 +1,14 @@
+{application, derp_test,
+ [{description, "An OTP application"}
+ ,{vsn, "0.1.0"}
+ ,{registered, []}
+ ,{mod, {'derp_test_app', []}}
+ ,{applications,
+   [kernel
+   ,stdlib
+   ,derp_dep
+   ,folsom_cowboy
+   ]}
+ ,{env,[]}
+ ,{modules, []}
+ ]}.
